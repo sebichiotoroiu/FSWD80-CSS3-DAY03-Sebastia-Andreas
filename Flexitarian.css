@@ -1,0 +1,19 @@
+.body {
+	border: 100px 50px 50px 50px;
+	color: red;
+}
+.box {
+	border: 100px 50px 50px 50px;
+	color: red;
+	margin: 40px auto;
+  	background: #005eff;
+  	width: 300px;
+  	height: 200px;	
+}
+
+.hr {
+	size: 20px;
+	width: 20%;
+	height: 200px;
+	color: #BA55DD;
+}
