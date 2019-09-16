@@ -3,3 +3,70 @@
 	justify-content: space-around;
 	
 }
+
+#img1 {
+
+box-shadow: 10px 10px 5px grey;
+width: 300px;
+height: 400px;
+transition: width 2s, 2s, transform 2s;
+transition-timing-function: ease-in-out;
+transition-delay: 0;
+
+}
+
+#img1:hover {
+	width: 600px;
+	height: 600px
+}
+
+.box: {
+
+	margin: 40px auto;
+ 	width: 600px;
+  	height: 200px;
+}
+
+.box::before {
+ 			border: 1px solid white;
+            content: '';
+            width: 198px;
+            height: 198px;
+            position: absolute;
+}
+
+.box::after {
+			content: '';
+            position: absolute;
+            width: 196px;
+            height: 196px;
+            border: 1px solid #bbbbbb;
+            left: 1px; top: 1px;
+}
+#img2:hover {
+
+	transform: rotate(360deg);
+  	border-radius: 50px;
+ 	width: 150px;
+ 	height: 50px;
+}
+
+.rotate {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.rotate:hover {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+p {
+	color: white;
+	text-shadow: -1px 0 black, 0 0 3px black, 0 0 5px black, 0 0 20px black, 0 -1px black
+}
+}
